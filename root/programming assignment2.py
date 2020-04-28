@@ -157,7 +157,7 @@ class flowControl:
             return -1
         
     def addP(self,packet):
-        index = self.dudeWheresMyPacket(packet)
+        index = self.wheresMyPacket(packet)
         if index == -1:  
             new_flow = Brook()
             new_flow.setPort(packet)
