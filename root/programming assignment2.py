@@ -56,13 +56,13 @@ class Brook:
       
         print("Flow ",self.ID,'Transaction 1: ')
         print('Sender: Sequence number= '+ str(seq1)+' Acknowledge number= '
-              , str(getattr(send1,'ack_num'))+' Recieve Window size = ', str((getattr(send1, 'receive_win')*16384)
+              , str(getattr(send1,'ack_num'))+' Receive Window size = ', str((getattr(send1, 'receive_win')*16384)
               ))
         
         print(' ')
         print("Flow ",self.ID,'Transaction 2: ')
         print('Sender: Sequence number= '+ str(seq2)+' Acknowledge number= '
-              + str(getattr(send2,'ack_num'))+' Recieve Window size = '+ str((getattr(send2, 'receive_win'))*16384)
+              + str(getattr(send2,'ack_num'))+' Receive Window size = '+ str((getattr(send2, 'receive_win'))*16384)
               )
        
         print(' ')
